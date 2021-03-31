@@ -12,16 +12,6 @@ body {
     align-items: center;
     justify-content: center;
 }
-.back-icon {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    z-index: 10000;
-}
-.back-icon svg {
-    height: 25px;
-    width: 17px;
-}
 .qustion-wrapper {
     position: absolute;
     top: 0;
@@ -47,6 +37,7 @@ main {
     width: 1000px;
     background: #f1f1f1;
     margin-top: 70px;
+    flex-direction: column;
 }
 .btn {
     height: 40px;
@@ -56,8 +47,44 @@ main {
     color: white;
     font-family: "Varela Round";
     cursor: pointer;
+    user-select: none;
 }
-
+.list {
+    height: 394px;
+    width: 203px;
+    overflow: auto;
+    display: flex;
+    max-height: 235px;
+    align-items: center;
+    flex-direction: column;
+    min-height: 156px;
+    margin-bottom: 53px;
+}
+.list .title {
+    width: 100%;
+    font-family: "Varela Round";
+    height: 47px;
+    border-bottom: 2px solid #06b39e;
+}
+.list .content {
+    flex-direction: column;
+    font-family: "varela Round";
+    max-height: 187px;
+    width: 100%;
+    display: flex;
+    overflow: auto;
+    align-items: center;
+}
+.back-icon {
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    z-index: 10000;
+}
+.back-icon svg {
+    height: 25px;
+    width: 17px;
+}
 .code-btn {
     position: absolute;
     top: 50px;

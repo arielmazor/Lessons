@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>webyschool - lesson1 solution2</title>
+    <title>webyschool - lesson1 exercise3</title>
     <link rel="icon" href="https://weby-school.com/assets/img/favicon.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../main.css">
@@ -18,25 +18,31 @@
                 stroke-width="4" />
         </svg>
     </a>
-    <div class="code-btn"> <a target="blank"
-            href="https://github.com/arielmazor/Lessons/blob/master/Lesson1%20-%20functions/ex2/solution/solution.html">
-            לקוד
+    <div class="code-btn">
+        <a target="blank"
+            href="https://github.com/arielmazor/Lessons/blob/master/Lesson1%20-%20functions/ex2/exercise/ex.html"> לקוד
             ללחוץ
-            כאן</a></div>
+            כאן</a>
+    </div>
     <div class="qustion-wrapper f-c">
-        <div class="title">lesson1 if else - ex2 - solution</div>
-        צור כפתור בזמן לחיצה על הכפתור הוא יקרא לפונקציה יעביר לה את המספרים 10 ו 5 והפונקציה תדפיס את המכפלה שלהם
+        <div class="title">lesson1 - solution3 </div>
+        צור כפתור. כל לחיצה על הכפתור תוסיף את המילה - שלום לרשימת המילים בצד
     </div>
     <main class="f-c">
         <div class="wrapper f-c">
-            <div onclick="consloeMultiply(5,10)" class="btn f-c">לחץ עלי</div>
+            <div class="list">
+                <div class="title f-c">רשימת המילים</div>
+                <div class="content"></div>
+            </div>
+            <div onclick="addContentList()" class="btn f-c">לחץ עלי</div>
         </div>
     </main>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <script>
-        function consloeMultiply(num1, num2) {
-            var multiplyValue = num1 * num2;
-            alert(multiplyValue);
+        function addContentList() {
+            var str = `שלום`;
+            var content = `${$(".list .content").html()}<br>${str}`;
+            $(".list .content").html(`${content}`);
         }
     </script>
 </body>
