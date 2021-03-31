@@ -12,16 +12,7 @@ body {
     align-items: center;
     justify-content: center;
 }
-.back-icon {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    z-index: 10000;
-}
-.back-icon svg {
-    height: 25px;
-    width: 17px;
-}
+
 .qustion-wrapper {
     position: absolute;
     top: 0;

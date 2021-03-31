@@ -75,16 +75,7 @@ main {
     overflow: auto;
     align-items: center;
 }
-.back-icon {
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    z-index: 10000;
-}
-.back-icon svg {
-    height: 25px;
-    width: 17px;
-}
+
 .code-btn {
     position: absolute;
     top: 50px;
