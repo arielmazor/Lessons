@@ -47,6 +47,7 @@ main {
     color: white;
     font-family: "Varela Round";
     cursor: pointer;
+    user-select: none;
 }
 
 .code-btn {
