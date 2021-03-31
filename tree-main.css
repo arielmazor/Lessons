@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+* {
+    font-family: "Varela Round";
+    font-weight: 300;
+}
+main {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.main-title {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #333;
+    margin-top: 71px;
+    font-size: 36px;
+}
+.lessons-wrapper {
+    width: auto;
+    height: 1000%;
+    margin-left: 99px;
+}
+.lesson1 .title {
+    font-size: 22px;
+}
+.lesson1 .wrapper {
+    margin-left: 32px;
+}
+.ex-wrapper {
+    width: 407px;
+    margin-bottom: 5px;
+}
+.ex-wrapper .title {
+    color: #808080;
+}
+.ex-wrapper .wrapper {
+    width: 10px;
+}
+.ex-wrapper .wrapper div {
+    margin: 13px 0;
+}
+.exercise,
+.solution {
+    text-decoration: none;
+    color: #333;
+    font-size: 19px;
+    transition: color 0.3s ease-in-out;
+}
+.exercise:hover {
+    color: #e63778;
+}
+.solution:hover {
+    color: #e63778;
+}

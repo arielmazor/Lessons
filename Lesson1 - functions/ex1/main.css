@@ -1,0 +1,54 @@
+html {
+    margin: 0;
+    height: 100%;
+}
+body {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+.f-c {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.qustion-wrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    height: 150px;
+
+    font-family: "varela Round";
+    font-size: 19px;
+    color: #333;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+}
+.wrapper {
+    height: 599px;
+    border-radius: 25px;
+    width: 1000px;
+    background: #f1f1f1;
+}
+.btn {
+    height: 40px;
+    width: 160px;
+    border-radius: 25px;
+    border: 3px solid white;
+}
+
+.code-btn {
+    position: absolute;
+    top: 50px;
+    right: 50px;
+}
+.code-btn a {
+    font-family: "varela round";
+    color: #333;
+    cursor: pointer;
+    text-decoration: none;
+}
