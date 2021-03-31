@@ -9,6 +9,109 @@
     <link rel="icon" href="https://weby-school.com/assets/img/favicon.svg" type="image/x-icon">
     <link href="https://fonts.googleapis.com/css2?family=Varela+Round&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../main.css">
+    <style>
+        html {
+            margin: 0;
+            height: 100%;
+        }
+
+        body {
+            height: 100%;
+            margin: 0;
+            overflow: hidden;
+        }
+
+        .f-c {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .qustion-wrapper {
+            position: absolute;
+            top: 0;
+            right: 0;
+            left: 0;
+            height: 209px;
+            flex-direction: column;
+            font-family: "varela Round";
+            font-size: 19px;
+            color: #333;
+        }
+
+        .qustion-wrapper .title {
+            font-size: 24px;
+            margin-bottom: 23px;
+        }
+
+        main {
+            height: 100%;
+            width: 100%;
+        }
+
+        .wrapper {
+            height: 599px;
+            border-radius: 25px;
+            width: 1000px;
+            background: #f1f1f1;
+            margin-top: 70px;
+            flex-direction: column;
+        }
+
+        .btn {
+            height: 40px;
+            width: 160px;
+            border-radius: 25px;
+            background: #06b39e;
+            color: white;
+            font-family: "Varela Round";
+            cursor: pointer;
+            user-select: none;
+        }
+
+        .list {
+            height: 394px;
+            width: 203px;
+            overflow: auto;
+            display: flex;
+            max-height: 235px;
+            align-items: center;
+            flex-direction: column;
+            min-height: 156px;
+            margin-bottom: 53px;
+        }
+
+        .list .title {
+            width: 100%;
+            font-family: "Varela Round";
+            height: 47px;
+            border-bottom: 2px solid #06b39e;
+        }
+
+        .list .content {
+            flex-direction: column;
+            font-family: "varela Round";
+            max-height: 187px;
+            width: 100%;
+            display: flex;
+            overflow: auto;
+            align-items: center;
+        }
+
+        .code-btn {
+            position: absolute;
+            top: 50px;
+            right: 50px;
+            z-index: 1000;
+        }
+
+        .code-btn a {
+            font-family: "varela round";
+            color: #333;
+            cursor: pointer;
+            text-decoration: none;
+        }
+    </style>
 </head>
 
 <body>
