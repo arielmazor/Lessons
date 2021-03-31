@@ -18,11 +18,15 @@ body {
     top: 0;
     right: 0;
     left: 0;
-    height: 192px;
-
+    height: 209px;
+    flex-direction: column;
     font-family: "varela Round";
     font-size: 19px;
     color: #333;
+}
+.qustion-wrapper .title {
+    font-size: 24px;
+    margin-bottom: 23px;
 }
 
 main {
